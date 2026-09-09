@@ -1,12 +1,12 @@
 # Grok Image Creator
 
-A sleek, dedicated text-to-image creation application powered by the xAI Grok Image API and OpenRouter. Built with React and Vite for lightning-fast performance.
+A text-to-image creation application powered by the xAI Grok Image API and OpenRouter. 
 
 ## Features
-- **xAI Grok Integration**: Seamlessly interface with Grok's image generation models.
-- **OpenRouter Fallback**: Configured to support OpenRouter API endpoints.
-- **Client-Side Security**: API keys are injected at runtime via local `.env` or UI prompts, ensuring zero server-side credential leakage.
-- **Modern UI**: Fully responsive frontend built with React and Tailwind CSS.
+- **xAI Grok Integration**: Send direct calls to Grok's image generation models.
+- **OpenRouter Fallback**: Configured to support alternative OpenRouter API endpoints.
+- **Client-Side Security**: Enter API keys at runtime via local `.env` or UI prompts. Zero server-side credential storage.
+- **Responsive UI**: Frontend built with React and Tailwind CSS.
 
 ## Tech Stack
 - React 19
