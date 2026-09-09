@@ -1,0 +1,5 @@
+{
+  "description": "A dedicated image creation app using the xAI Grok Image API.",
+  "requestFramePermissions": [],
+  "name": "Grok Image Creator --- v1.0.1"
+}

@@ -1,0 +1,2 @@
+grok_api="your_xai_api_key_here"
+openrouter_api="your_openrouter_api_key_here"
