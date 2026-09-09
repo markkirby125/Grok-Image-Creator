@@ -1,5 +1,8 @@
 # Grok Image Creator
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![React](https://img.shields.io/badge/React-20232A?style=flat# Grok Image Creatorlogo=react# Grok Image CreatorlogoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat# Grok Image Creatorlogo=typescript# Grok Image CreatorlogoColor=white) ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat# Grok Image Creatorlogo=vite# Grok Image CreatorlogoColor=FFD62E)
+
+
 **xAI Grok text-to-image application** built with React and Vite. It routes prompt generation directly to Grok's image models, uses OpenRouter as an alternative endpoint fallback, and secures API keys locally without server-side credential storage.
 
 ## Features
