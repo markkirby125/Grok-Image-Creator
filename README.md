@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Grok Image Creator
 
-# Run and deploy your AI Studio app
+A sleek, dedicated text-to-image creation application powered by the xAI Grok Image API and OpenRouter. Built with React and Vite for lightning-fast performance.
 
-This contains everything you need to run your app locally.
+## Features
+- **xAI Grok Integration**: Seamlessly interface with Grok's image generation models.
+- **OpenRouter Fallback**: Configured to support OpenRouter API endpoints.
+- **Client-Side Security**: API keys are injected at runtime via local `.env` or UI prompts, ensuring zero server-side credential leakage.
+- **Modern UI**: Fully responsive frontend built with React and Tailwind CSS.
 
-View your app in AI Studio: https://ai.studio/apps/drive/14WCac3Zbs-Ja3cLW0BaFKRFSBwJliGgq
+## Tech Stack
+- React 19
+- Vite
+- Tailwind CSS
+- TypeScript
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/markkirby125/Grok-Image-Creator.git
+   cd Grok-Image-Creator
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up your environment variables by creating a `.env.local` file:
+   ```env
+   GEMINI_API_KEY=your_key_here
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## License
+MIT License
